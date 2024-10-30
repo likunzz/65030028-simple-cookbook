@@ -30,10 +30,11 @@ int adc_raw;
     // ส่งข้อมูลไปยังผู้ใช้
     httpd_resp_send(req, analogtxt, HTTPD_RESP_USE_STRLEN);
     return ESP_OK;
+ ```
 
-  ```
 ## 3. แสดงขั้นตอนการทำ project
-    หลังจากแก้ไขแล้วให้กด build จะได้ IP address และนำไปค้นหาในแถบURL(ใช้เน็ตเดียวกับที่เขียนในบอร์ด ESP32)
+  เมื่อแก้ไขเสร็จให้กด built flash moniter เพื่อรับIP และนำไปค้นหาในแถบURL
+  *ต้องมช้wifiเดีนยวกัน
    ![image](https://github.com/user-attachments/assets/096b6486-8a4d-4332-b87c-2f021a07b407)
 
 ## 4. แสดงผลการทำ project
