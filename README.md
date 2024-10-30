@@ -34,7 +34,7 @@ int adc_raw;
 
 ## 3. แสดงขั้นตอนการทำ project
   เมื่อแก้ไขเสร็จให้กด built flash moniter เพื่อรับIP และนำไปค้นหาในแถบURL
-  *ต้องมช้wifiเดีนยวกัน
+  *ต้องใช้wifiเดีนยวกัน
    ![image](https://github.com/user-attachments/assets/096b6486-8a4d-4332-b87c-2f021a07b407)
 
 ## 4. แสดงผลการทำ project
